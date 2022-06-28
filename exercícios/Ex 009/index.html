@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/box2.lnk" type="image/x-icon">
+    <title>Formatação de textos</title>
+    <style>
+        mark{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <hr>
+    <h2>Negrito ou destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt;</p><!--a tag bold não assume forma semântica, ou seja, não destaca o significado, pois assume apenas o formato em negrito-->
+    <p>Nesta frase tem um <strong>termo em destaque</strong> usando a tag &lt;strong&gt;</p>
+    <h2>Itálico / ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag &lt;i&gt;</p><!--não é semântica-->
+    <P>Nesta frase, temos um <em>termo em ênfase</em> usando a tag &lt;em&gt; </P><!--é semântica-->
+    <h2>Texto marcado</h2>
+    <p>Podemos criar tambèm <mark>um texto marcado</mark> usando a tag &lt;mark&gt;</p>
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark></p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos cirando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    <h2>Trechos de códigos</h2>
+    <pre><code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0:
+                print(f'O número{num} é par')
+            else:
+                print(f'O número {num} é ímpar')
+            print('FIM DO PROGRAMA')
+        </code></pre>
+    <h2>Citações</h2>
+    <p>Eu posso citar qualquer coisa <q>no meio</q> do parágrafo com a tag &lt;q&gt;</p>
+    <p>Ainda posso citar coisas grandes com um parágrafo único</p>
+    <blockquote link="https://www.google.com.br/books/edition/_/eUxWEAAAQBAJ?hl=pt-BR&gbpv=1">Quando o bom rei Sargon voltou à Babilônia depois de ter derrotado seus inimigos, os elamitas, viu-se confrontado com uma séria situação. o chanceler real explicou-lhe o que estava passando [...]</blockquote>
+    <h2>Abreviações</h2>
+    <p>Muito utilizada em textos na área de tecnlogia, as abreviações permitem uma facilidade para explicação de assuntos em seus mais diversos ramos. Contudo, para ddescrever uma abreviação usa-se a tag abbr. Por exemplo, <abbr title="Hypertext Markup Language">HTML</abbr>.</p>
+    <h2>Tag mais inútil</h2>
+    <p>Estou falando da tag bdo, simplesmente assume dois sentidos, left to right or right to left, que vai fazer o texto simplesmente ficar invertido ou da maneira como se lê. Utilidade ou inutilidade? Não sei, mas é inútil!!</p>
+    <bdo dir="rtl">ambulância</bdo>
+    
+        
+</body>
+</html>

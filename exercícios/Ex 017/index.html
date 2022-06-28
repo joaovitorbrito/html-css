@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Se liga nas imagens aew com a tag picture</p>
+    <picture>
+        <source media="(max-width: 450px)" srcset="imagenstests/cs-300.png" type="image/png">
+        <source media="(max-width: 550px)" srcset="imagenstests/cs-400.png" type="image/png">
+        <source media="(max-width: 650px)" srcset="imagenstests/cs-500.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="imagenstests/cs-600.png" type="image/png">
+        <source media="(max-width: 850px)" srcset="imagenstests/cs-700.png" type="image/png">
+        <source media="(max-width: 950px)" srcset="imagenstests/cs-800.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagenstests/cs-900.png" type="image/png">
+        <img src="imagenstests/cs-1000.png" alt="imagem flexível">
+    </picture>
+
+</body>
+</html>
